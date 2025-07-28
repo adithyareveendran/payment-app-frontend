@@ -19,7 +19,7 @@ export default function HomeScreen() {
       flexDirection: 'column',
       justifyContent: 'center',
       alignItems: 'center',
-      height: '100vh', // full height of screen
+      
       textAlign: 'center',
       width: '100vw',
       backgroundColor: '#d9e1edff',

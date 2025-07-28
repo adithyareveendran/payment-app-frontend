@@ -25,7 +25,7 @@ export default function PaymentScreen() {
 
   return (
     
-    <div style={{ padding: '2rem', backgroundColor:'#d9e1edff', width:'100vw',height:'100vh',  justifyItems:'center', alignItems:'center'}}>
+    <div style={{ padding: '2rem', backgroundColor:'#ffffffff',justifyItems:'center', alignItems:'center',width:'100vw'}}>
       <h2>💳 Make a Payment</h2>
       <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', maxWidth: '400px' }}>
         <label>Account Number</label>
@@ -44,7 +44,7 @@ export default function PaymentScreen() {
           required
         />
 
-        <button type="submit" style={{ marginTop: '1rem', backgroundColor:'#ffffffff'}}>Submit Payment</button>
+        <button type="submit" style={{ marginTop: '1rem', backgroundColor:'#7392d1ff'}}>Submit Payment</button>
         {error && <p style={{ color: 'red' }}>{error}</p>}
       </form>
     </div>
